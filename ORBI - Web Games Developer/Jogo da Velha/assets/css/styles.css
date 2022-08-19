@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+.square {
+    text-align: center;
+    width: 40px;
+    background-color: #EEE;
+    display: inline-block;
+    padding: 60px;
+    font-size: 60px;
+    margin: 6px;
+    cursor: pointer;
+    color: #EEE;
+}
+
+.player, .win {  
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #EEE;
+    cursor: pointer;
+}

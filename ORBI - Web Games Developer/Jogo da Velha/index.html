@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Jogo Da Véia!</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo Da Velha</h1>
+    </header>
+
+    <section>
+        <div id="1" class="square" onclick="selectSquare(this.id)">-</div>
+        <div id="2" class="square" onclick="selectSquare(this.id)">-</div>
+        <div id="3" class="square" onclick="selectSquare(this.id)">-</div>
+    </section>
+
+    <section>
+        <div id="4" class="square" onclick="selectSquare(this.id)">-</div>
+        <div id="5" class="square" onclick="selectSquare(this.id)">-</div>
+        <div id="6" class="square" onclick="selectSquare(this.id)">-</div>
+    </section>
+
+    <section>
+        <div id="7" class="square" onclick="selectSquare(this.id)">-</div>
+        <div id="8" class="square" onclick="selectSquare(this.id)">-</div>
+        <div id="9" class="square" onclick="selectSquare(this.id)">-</div>
+    </section>
+
+    <section class="player">
+        <label>Jogador: </label>
+        <label id="selected-player"></label>
+    </section>
+
+    <section class="win">
+        <label>Vencedor: </label>
+        <label id="winner"></label>
+    </section>
+        <button onclick="restart()">Jogar Novamente!</button>
+    </section>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

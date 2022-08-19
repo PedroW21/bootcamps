@@ -1,0 +1,46 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.dino {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/dino.png);
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(../img/cactus.png);
+}
+
+.game-over{
+    text-align: center;
+    color: #666666;
+    margin-top: 50px;
+    font-family: arial;
+}
+
+
+@keyframes sliderRight {
+    from{
+        background-position: 70000%; 
+    } to {
+        background-position: 0%;
+    }
+}
+
+.bg-game {
+    position: absolute;
+    bottom: 0;
+    background-image: url(../img/background.png);
+    background-repeat: repeat-x; /* Repetira no eixo X infinitamente*/;
+    animation: sliderRight 600s infinite linear; /* Executa a animação de maneira igual (nao fica mais rapida em determinado momento)*/
+
+    width: 100%;
+    height: 100px;
+}
